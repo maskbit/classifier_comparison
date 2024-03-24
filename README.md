@@ -49,10 +49,9 @@ The dataset consists of 20 features alongside a target feature indicating whethe
 
 # Models Evaluation and Comparison
 
-To start with, a baseline model was created with the help of scikit learn's DummyClassifier. DummyClassifier was fit with the model and accuracy score was calculated.
-In the classifier analysis, K-Nearest Neighbor Classifier, Decision Tree Classifier and Support Vector Classifier default models were evaluated and their accuracy scores were calculated. Decision Tree Classifier performed the best with the best training and testing accuracy scores. 
+Initially, a baseline model was established using scikit-learn's DummyClassifier. The model was trained and its accuracy score was computed. Subsequently, various classifier models including K-Nearest Neighbor Classifier, Decision Tree Classifier, and Support Vector Classifier default models were assessed, and their accuracy scores were computed. Among these classifiers, the Decision Tree Classifier exhibited the highest performance, achieving the top training and testing accuracy scores.
 
-Below is a summary table presenting the results of the different ML regressor models:
+Below is a summary table showcasing the outcomes of the distinct ML classifier models:
 
 |          Model | Fit Time | train_acc | test_acc |
 |---------------:|---------:|----------:|----------|
