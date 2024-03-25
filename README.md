@@ -1,4 +1,4 @@
-# classifier_comparison
+# Classifier Comparison
 
 # Introduction
 
