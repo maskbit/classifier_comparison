@@ -40,11 +40,17 @@ The dataset consists of 20 features alongside a target feature indicating whethe
 | 21 - y - has the client subscribed a term deposit? (binary: 'yes','no') |
 |  |
 
+The dataset contains 6,394 duplicate rows, which represent 15.5% of the total data. There is a strong overall correlation between housing and loan variables. Additionally, default variable exhibits significant imbalance, with a majority class representing 53.3% of the data. Similarly, the loan variable is highly imbalanced, with one class comprising 51.3% of the dataset.
 
 **Data Visualization:**
 
-![Cars by Type Cylinders](/images/carTypeCylinders.png)
+![Histogram of age](/images/agehistogram.png)
 
+![Age and Marital distribution](/images/edumaritaldist.png)
+
+![Catplot of Education and Age](/images/eduagecat.png)
+
+![Job and Marital distribution](/images/jobmaritaldist.png)
 
 
 # Models Evaluation and Comparison
