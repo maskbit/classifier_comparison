@@ -65,12 +65,16 @@ Below is a summary table showcasing the outcomes of the distinct ML classifier m
 | DTC Classifier | 0.224090 |  0.891194 | 0.884600 |
 | SVC Classifier | 9.746953 |  0.887239 | 0.887594 |
 
-To further improve the model, hyperparameter tuning was employed using gridsearchcv for Decision Tree Classifier and Support Vector Classifier and the accuracy scores were calculated. The scores 
+In order to enhance the model's performance, hyperparameter tuning was conducted using GridSearchCV for both the Decision Tree Classifier and Support Vector Classifier, and their accuracy scores were computed. However, there was no improvement observed in the scores. Consequently, additional features such as 'duration', 'campaign', and 'previous' were incorporated. Subsequently, the hyperparameter tuning was reapplied using GridSearchCV for the Decision Tree Classifier and Support Vector Classifier on the updated dataset, resulting in a further deterioration of the scores.
 
+| Model with Hyper Paramter Tuning (Best Params) | Training Acc | Testing Acc |
+|---:|---:|---:|
+| Decision Tree Classifier {'ccp_alpha': 0.0, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 5} | 0.887239 | 0.887594 |
+| SVC {'C': 0.1, 'degree': 0, 'gamma': 0.1, 'kernel': 'linear'} | 0.887239 | 0.887594 |
 
 # Summary of Findings
 
-
+In summary, the decision tree classifier exhibited superior performance, demonstrating the fastest fitting time along with the highest training and testing accuracy scores. While the support vector machines classifier approached the results of the decision tree classifier, it proved to be computationally intensive and required a longer fitting time.
 
 # Notebook
 
