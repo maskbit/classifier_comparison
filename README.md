@@ -44,13 +44,29 @@ The dataset contains 6,394 duplicate rows, which represent 15.5% of the total da
 
 **Data Visualization:**
 
+Histogram plot of Age
 ![Histogram of age](/images/agehistogram.png)
+
+
+The population was predominantly composed of individuals aged between 30 and 40 years, with a notably smaller representation of individuals over the age of 60.
+
+Age and Marital Distribution
 
 ![Age and Marital distribution](/images/edumaritaldist.png)
 
-![Catplot of Education and Age](/images/eduagecat.png)
+Job and Marital Distribution
 
 ![Job and Marital distribution](/images/jobmaritaldist.png)
+
+* Married individuals were predominant across all statuses.
+* The illiterate population was minimal to non-existent.
+* Those with a University degree constituted a significant portion of the population.
+* Even among blue-collar workers, married individuals were the most prevalent.
+* Students predominantly represented the single marital status.
+
+Categorical plot of Education vs Age
+
+![Catplot of Education and Age](/images/eduagecat.png)
 
 
 # Models Evaluation and Comparison
